@@ -1,0 +1,34 @@
+     .navigation {
+        height: 20vh;
+        background-color: darkblue;
+        text-align: center;
+        font-size: larger;
+        color: white;
+        margin: 5px;
+    }
+    
+    .background {
+        background-color: lightblue;
+        color: darkblue;
+    }
+    #colorform {
+        background-color: gray;
+    }
+    
+    .footer {
+        height: 10vh;
+        width: 100%;
+        background-color: darkblue;
+        color: white;
+        bottom: 0;
+        margin: 5px;
+        text-align: right;
+    }
+
+    
+#centerText {
+    display: none;
+}
+#demo {
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ispitni Rok</title>
+    <link rel="stylesheet" href="stilovi.css">
+    <script src="skripta.js"></script>
+</head>
+<body>
+    <div class="navigation">
+        <nav class="boxes">
+            <a href="index.html">Početna Stranica</a>
+            <a href="Poruka.html">Poruka</a>
+            <a href="Obrubslike.html">Obrub Slike</a>
+            <a href="Boja.html">Boja</a>
+        </nav>
+    </div>
+        
+        <form id="colorForm">
+            <label for="red">Red (0-255):</label>
+            <input type="number" id="red" name="red" min="0" max="255" value="0">
+            <br>
+            <label for="green">Green (0-255):</label>
+            <input type="number" id="green" name="green" min="0" max="255" value="0">
+            <br>
+            <label for="blue">Blue (0-255):</label>
+            <input type="number" id="blue" name="blue" min="0" max="255" value="0">
+            <br>
+            <button type="button" id="generateButton">Generate RGB Color</button>
+        </form>
+     <img src="https://media.licdn.com/dms/image/D4D08AQEBdJ1_C0BQbA/croft-frontend-shrinkToFit1024/0/1689004338897?e=2147483647&v=beta&t=AuBLsbVAELlwrWwNnvGR1ZFhhPjaP3R-o5pzd4LEftQ" alt="">
+    
+        <div id="colorResult"></div>
+        <div id="colorResult"></div>
+
+<div class="footer">
+        <footer>
+            <p>Kevin Pokos : <span id="time"></span></p>
+        </footer>
+        </div>
+</body>
+</html>
